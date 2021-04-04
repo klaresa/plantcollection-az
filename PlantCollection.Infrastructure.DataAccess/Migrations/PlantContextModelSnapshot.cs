@@ -34,6 +34,9 @@ namespace PlantCollection.Infrastructure.DataAccess.Migrations
                     b.Property<string>("ImageUri")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("PageViews")
+                        .HasColumnType("int");
+
                     b.Property<string>("Species")
                         .HasColumnType("nvarchar(max)");
 

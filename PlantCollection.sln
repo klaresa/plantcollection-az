@@ -9,17 +9,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Domain", "2. Domain", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Infrastructure", "3. Infrastructure", "{1BB00D82-B133-4D7C-8CB2-2351B0DFFFE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantCollection.Domain.Model", "PlantCollection.Domain\PlantCollection.Domain.Model.csproj", "{0734580C-0CEB-43B6-926E-4402B7F68891}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlantCollection.Domain.Model", "PlantCollection.Domain\PlantCollection.Domain.Model.csproj", "{0734580C-0CEB-43B6-926E-4402B7F68891}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantCollection.Domain.Services", "PlantCollection.Domain.Services\PlantCollection.Domain.Services.csproj", "{9DD4D03E-E062-4B45-BACD-37F6AEB2F2B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlantCollection.Domain.Services", "PlantCollection.Domain.Services\PlantCollection.Domain.Services.csproj", "{9DD4D03E-E062-4B45-BACD-37F6AEB2F2B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantCollection.Infrastructure.DataAccess", "PlantCollection.Infrastructure.DataAccess\PlantCollection.Infrastructure.DataAccess.csproj", "{7E39EE65-FFD2-482C-90F4-7EBFD4125F02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlantCollection.Infrastructure.DataAccess", "PlantCollection.Infrastructure.DataAccess\PlantCollection.Infrastructure.DataAccess.csproj", "{7E39EE65-FFD2-482C-90F4-7EBFD4125F02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantCollection.Infrastructure.Services", "PlantCollection.Infrastructure.Services\PlantCollection.Infrastructure.Services.csproj", "{F4AF7E9B-1A0A-4C4B-B42F-7082F3D5AE7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlantCollection.Infrastructure.Services", "PlantCollection.Infrastructure.Services\PlantCollection.Infrastructure.Services.csproj", "{F4AF7E9B-1A0A-4C4B-B42F-7082F3D5AE7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantCollection.WebApp", "PlantCollection.WebApp\PlantCollection.WebApp.csproj", "{9193646D-DD7B-48BC-BCDD-EBE68A5D043A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlantCollection.WebApp", "PlantCollection.WebApp\PlantCollection.WebApp.csproj", "{9193646D-DD7B-48BC-BCDD-EBE68A5D043A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantCollection.Infrastructure.IoC", "PlantCollection.Infrastructure.IoC\PlantCollection.Infrastructure.IoC.csproj", "{33E13FB4-81C0-4532-B99D-A7B0958A3155}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlantCollection.Infrastructure.IoC", "PlantCollection.Infrastructure.IoC\PlantCollection.Infrastructure.IoC.csproj", "{33E13FB4-81C0-4532-B99D-A7B0958A3155}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionApp", "FunctionApp\FunctionApp.csproj", "{4B58AA0B-A853-4A0B-9378-FECEBE2B6526}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{33E13FB4-81C0-4532-B99D-A7B0958A3155}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33E13FB4-81C0-4532-B99D-A7B0958A3155}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33E13FB4-81C0-4532-B99D-A7B0958A3155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B58AA0B-A853-4A0B-9378-FECEBE2B6526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B58AA0B-A853-4A0B-9378-FECEBE2B6526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B58AA0B-A853-4A0B-9378-FECEBE2B6526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B58AA0B-A853-4A0B-9378-FECEBE2B6526}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +68,7 @@ Global
 		{F4AF7E9B-1A0A-4C4B-B42F-7082F3D5AE7C} = {1BB00D82-B133-4D7C-8CB2-2351B0DFFFE9}
 		{9193646D-DD7B-48BC-BCDD-EBE68A5D043A} = {82B08E22-D303-477D-996E-283E95232FFB}
 		{33E13FB4-81C0-4532-B99D-A7B0958A3155} = {1BB00D82-B133-4D7C-8CB2-2351B0DFFFE9}
+		{4B58AA0B-A853-4A0B-9378-FECEBE2B6526} = {1BB00D82-B133-4D7C-8CB2-2351B0DFFFE9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {04379C47-9FB1-40FD-99BC-5616833D45AB}

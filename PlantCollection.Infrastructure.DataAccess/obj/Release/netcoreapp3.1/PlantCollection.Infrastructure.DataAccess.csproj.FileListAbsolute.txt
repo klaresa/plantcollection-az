@@ -1,0 +1,15 @@
+D:\Csharp\PlantCollection\PlantCollection.Infrastructure.DataAccess\bin\Release\netcoreapp3.1\PlantCollection.Infrastructure.DataAccess.deps.json
+D:\Csharp\PlantCollection\PlantCollection.Infrastructure.DataAccess\bin\Release\netcoreapp3.1\PlantCollection.Infrastructure.DataAccess.runtimeconfig.json
+D:\Csharp\PlantCollection\PlantCollection.Infrastructure.DataAccess\bin\Release\netcoreapp3.1\PlantCollection.Infrastructure.DataAccess.runtimeconfig.dev.json
+D:\Csharp\PlantCollection\PlantCollection.Infrastructure.DataAccess\bin\Release\netcoreapp3.1\PlantCollection.Infrastructure.DataAccess.dll
+D:\Csharp\PlantCollection\PlantCollection.Infrastructure.DataAccess\bin\Release\netcoreapp3.1\PlantCollection.Infrastructure.DataAccess.pdb
+D:\Csharp\PlantCollection\PlantCollection.Infrastructure.DataAccess\bin\Release\netcoreapp3.1\PlantCollection.Domain.Model.dll
+D:\Csharp\PlantCollection\PlantCollection.Infrastructure.DataAccess\bin\Release\netcoreapp3.1\PlantCollection.Domain.Model.pdb
+D:\Csharp\PlantCollection\PlantCollection.Infrastructure.DataAccess\obj\Release\netcoreapp3.1\PlantCollection.Infrastructure.DataAccess.csprojAssemblyReference.cache
+D:\Csharp\PlantCollection\PlantCollection.Infrastructure.DataAccess\obj\Release\netcoreapp3.1\PlantCollection.Infrastructure.DataAccess.AssemblyInfoInputs.cache
+D:\Csharp\PlantCollection\PlantCollection.Infrastructure.DataAccess\obj\Release\netcoreapp3.1\PlantCollection.Infrastructure.DataAccess.AssemblyInfo.cs
+D:\Csharp\PlantCollection\PlantCollection.Infrastructure.DataAccess\obj\Release\netcoreapp3.1\PlantCollection.Infrastructure.DataAccess.csproj.CoreCompileInputs.cache
+D:\Csharp\PlantCollection\PlantCollection.Infrastructure.DataAccess\obj\Release\netcoreapp3.1\PlantCollection.Infrastructure.DataAccess.csproj.CopyComplete
+D:\Csharp\PlantCollection\PlantCollection.Infrastructure.DataAccess\obj\Release\netcoreapp3.1\PlantCollection.Infrastructure.DataAccess.dll
+D:\Csharp\PlantCollection\PlantCollection.Infrastructure.DataAccess\obj\Release\netcoreapp3.1\PlantCollection.Infrastructure.DataAccess.pdb
+D:\Csharp\PlantCollection\PlantCollection.Infrastructure.DataAccess\obj\Release\netcoreapp3.1\PlantCollection.Infrastructure.DataAccess.genruntimeconfig.cache

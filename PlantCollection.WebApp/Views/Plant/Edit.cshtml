@@ -33,7 +33,8 @@
 
             <div class="form-group">
                 <label asp-for="ImageUri" class="control-label"></label>
-                <input type="file" asp-for="ImageUri" class="form-control" accept=".jpg" required />
+                <input type="hidden" asp-for="ImageUri" />
+                <input type="file" asp-for="ImageUri" class="form-control" accept=".jpg" />
             </div>
             <div class="form-group">
                 <input type="submit" value="Edit" class="btn btn-primary" />

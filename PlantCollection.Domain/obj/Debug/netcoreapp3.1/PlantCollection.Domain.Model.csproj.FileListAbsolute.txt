@@ -6,3 +6,4 @@ D:\Csharp\PlantCollection\PlantCollection.Domain\obj\Debug\netcoreapp3.1\PlantCo
 D:\Csharp\PlantCollection\PlantCollection.Domain\obj\Debug\netcoreapp3.1\PlantCollection.Domain.Model.csproj.CoreCompileInputs.cache
 D:\Csharp\PlantCollection\PlantCollection.Domain\obj\Debug\netcoreapp3.1\PlantCollection.Domain.Model.dll
 D:\Csharp\PlantCollection\PlantCollection.Domain\obj\Debug\netcoreapp3.1\PlantCollection.Domain.Model.pdb
+D:\Csharp\PlantCollection\PlantCollection.Domain\obj\Debug\netcoreapp3.1\PlantCollection.Domain.Model.csprojAssemblyReference.cache

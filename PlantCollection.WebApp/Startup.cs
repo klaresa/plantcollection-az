@@ -12,6 +12,9 @@ using PlantCollection.Infrastructure.IoC;
 using Microsoft.EntityFrameworkCore;
 using PlantCollection.Infrastructure.DataAccess;
 using PlantCollection.Infrastructure.DataAccess.Repositories;
+using Microsoft.Extensions.Azure;
+using Azure.Storage.Blobs;
+using Azure.Core.Extensions;
 
 namespace PlantCollection.WebApp
 {

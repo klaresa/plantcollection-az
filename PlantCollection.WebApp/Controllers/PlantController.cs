@@ -63,6 +63,8 @@ namespace PlantCollection.WebApp.Controllers
                 return NotFound();
             }
 
+            await _domainService.IncreaseView(id);
+
             return View(plant);
         }
 
@@ -99,7 +101,6 @@ namespace PlantCollection.WebApp.Controllers
                     var file = Request.Form.Files.SingleOrDefault();
 
                     await _domainService.UpdateAsync(plant, file?.OpenReadStream());
-                    //await _domainService.InsertAsync(plant, file?.OpenReadStream());
                 }
                 catch (DbUpdateConcurrencyException)
                 {

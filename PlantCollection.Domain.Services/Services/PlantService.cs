@@ -40,20 +40,32 @@ namespace PlantCollection.Domain.Services.Services
 
         public async Task UpdateAsync(Plant plant, Stream stream)
         {
-            if (plant.ImageUri != null)
+            if (stream != null)
             {
                 await _blobService.DeleteAsync(plant.ImageUri);
+
+                var newUri = await _blobService.UploadAsync(stream);
+                plant.ImageUri = newUri;
             }
-            var newUri = await _blobService.UploadAsync(stream);
-            plant.ImageUri = newUri;
 
             await _repository.UpdateAsync(plant);
         }
 
         public async Task DeleteAsync(Plant plant)
         {
-            await _blobService.DeleteAsync(plant.ImageUri);
-            await _repository.DeleteAsync(plant);
+            if (plant != null)
+            {
+                await _blobService.DeleteAsync(plant.ImageUri);
+                await _repository.DeleteAsync(plant);
+            }
         }
+
+        public async Task IncreaseView(string id)
+        {
+            var plant =  await _repository.GetByIdAsync(Guid.Parse(id));
+            plant.PageViews += 1;
+            await _repository.UpdateAsync(plant);
+        }
+
     }
 }

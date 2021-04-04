@@ -188,3 +188,9 @@ D:\Csharp\PlantCollection\PlantCollection.WebApp\obj\Debug\netcoreapp3.1\staticw
 D:\Csharp\PlantCollection\PlantCollection.WebApp\obj\Debug\netcoreapp3.1\PlantCollection.WebApp.dll
 D:\Csharp\PlantCollection\PlantCollection.WebApp\obj\Debug\netcoreapp3.1\PlantCollection.WebApp.pdb
 D:\Csharp\PlantCollection\PlantCollection.WebApp\obj\Debug\netcoreapp3.1\PlantCollection.WebApp.genruntimeconfig.cache
+D:\Csharp\PlantCollection\PlantCollection.WebApp\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.PlantCollection - Web Deploy.json
+D:\Csharp\PlantCollection\PlantCollection.WebApp\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\PlantCollection - Web Deploy\mssql1.arm.json
+D:\Csharp\PlantCollection\PlantCollection.WebApp\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\PlantCollection - Web Deploy\profile.arm.json
+D:\Csharp\PlantCollection\PlantCollection.WebApp\bin\Debug\netcoreapp3.1\Azure.Extensions.AspNetCore.Configuration.Secrets.dll
+D:\Csharp\PlantCollection\PlantCollection.WebApp\bin\Debug\netcoreapp3.1\Azure.Identity.dll
+D:\Csharp\PlantCollection\PlantCollection.WebApp\bin\Debug\netcoreapp3.1\Azure.Security.KeyVault.Secrets.dll

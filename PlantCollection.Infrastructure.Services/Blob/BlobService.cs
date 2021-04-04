@@ -28,6 +28,7 @@ namespace PlantCollection.Infrastructure.Services.Blob
                 await containerClient.SetAccessPolicyAsync(Azure.Storage.Blobs.Models.PublicAccessType.BlobContainer);
             }
 
+            // aqui vc da um nome para o seu arquivo
             var blobClient = containerClient.GetBlobClient($"{Guid.NewGuid()}.jpg");
 
             await blobClient.UploadAsync(stream, true);

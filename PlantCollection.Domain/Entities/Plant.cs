@@ -11,5 +11,6 @@ namespace PlantCollection.Domain.Model.Entities
         public string Species { get; set; }
         public string Genus { get; set; }
         public string ImageUri { get; set; }
+        public int PageViews { get; set; }
     }
 }

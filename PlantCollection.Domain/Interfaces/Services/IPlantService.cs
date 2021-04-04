@@ -14,5 +14,6 @@ namespace PlantCollection.Domain.Model.Interfaces.Services
         Task InsertAsync(Plant plant, Stream stream);
         Task UpdateAsync(Plant plant, Stream stream);
         Task DeleteAsync(Plant plant);
+        Task IncreaseView(string id);
     }
 }
