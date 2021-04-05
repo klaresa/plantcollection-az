@@ -80,19 +80,11 @@ namespace PlantCollection.Domain.Services.Services
             //plant.PageViews += 1;
             //await _repository.UpdateAsync(plant);
 
-
-
             // ------- INSERCAO FUNCTION SERVICE -------
             //var plant = await _repository.GetByIdAsync(Guid.Parse(id));
             //await _functionService.InvokeAsync(plant);
 
-
-
-
             // ------- INSERCAO QUEUE -------
-            //var plant = _repository.GetByIdAsync(Guid.Parse(id));
-            //var response = plant.Result;
-
             var serialize = JsonSerializer.SerializeToUtf8Bytes(id);
             string stringify = Convert.ToBase64String(serialize);
 
