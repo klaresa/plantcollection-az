@@ -33,7 +33,7 @@
           "lib/netstandard2.0/Azure.Storage.Blobs.dll": {}
         }
       },
-      "Azure.Storage.Common/12.7.0": {
+      "Azure.Storage.Common/12.7.1": {
         "type": "package",
         "dependencies": {
           "Azure.Core": "1.8.1"
@@ -43,6 +43,20 @@
         },
         "runtime": {
           "lib/netstandard2.0/Azure.Storage.Common.dll": {}
+        }
+      },
+      "Azure.Storage.Queues/12.6.1": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Storage.Common": "12.7.1",
+          "System.Memory.Data": "1.0.1",
+          "System.Text.Json": "4.6.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Azure.Storage.Queues.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.Storage.Queues.dll": {}
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
@@ -88,6 +102,18 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.Memory.Data/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "4.6.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Memory.Data.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.Data.dll": {}
         }
       },
       "System.Numerics.Vectors/4.5.0": {
@@ -166,19 +192,35 @@
         "pkgicon.png"
       ]
     },
-    "Azure.Storage.Common/12.7.0": {
-      "sha512": "w2hcSk80NbkUIvb0x81zYAvpx7RzhRVJjWterjYpEI9DRNLoqxap3b7LOSnLfcA5jgSVaeKlOZzneUrXx7+wnA==",
+    "Azure.Storage.Common/12.7.1": {
+      "sha512": "3f5auvdpx3LZpQq/bdqVurxuoaoIjnupefmBdDuOF7K70XFB2mTLLcx4erzZnUK7X82GKh/qkJGb5lyQFPgDVg==",
       "type": "package",
-      "path": "azure.storage.common/12.7.0",
+      "path": "azure.storage.common/12.7.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "CHANGELOG.md",
         "README.md",
-        "azure.storage.common.12.7.0.nupkg.sha512",
+        "azure.storage.common.12.7.1.nupkg.sha512",
         "azure.storage.common.nuspec",
         "lib/netstandard2.0/Azure.Storage.Common.dll",
         "lib/netstandard2.0/Azure.Storage.Common.xml",
+        "pkgicon.png"
+      ]
+    },
+    "Azure.Storage.Queues/12.6.1": {
+      "sha512": "mizFA2TXOfUmzc+EZyytwhraNvzrOUwUFZh9IiDTr5zBh3CX+TC0ZmEAIdxM/J5FRr7Cc4cn3aQCRV9/bI50Mw==",
+      "type": "package",
+      "path": "azure.storage.queues/12.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.storage.queues.12.6.1.nupkg.sha512",
+        "azure.storage.queues.nuspec",
+        "lib/netstandard2.0/Azure.Storage.Queues.dll",
+        "lib/netstandard2.0/Azure.Storage.Queues.xml",
         "pkgicon.png"
       ]
     },
@@ -308,6 +350,24 @@
         "version.txt"
       ]
     },
+    "System.Memory.Data/1.0.1": {
+      "sha512": "ujvrOjcni2QQbr6hG2AkUTWLb/xplrx0mt6HrdHFCzzGky2d5J6YD60TKAEf8SBk33cfSzTvFmXewAVaPY/dZg==",
+      "type": "package",
+      "path": "system.memory.data/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "DotNetPackageIcon.png",
+        "README.md",
+        "lib/net461/System.Memory.Data.dll",
+        "lib/net461/System.Memory.Data.xml",
+        "lib/netstandard2.0/System.Memory.Data.dll",
+        "lib/netstandard2.0/System.Memory.Data.xml",
+        "system.memory.data.1.0.1.nupkg.sha512",
+        "system.memory.data.nuspec"
+      ]
+    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
@@ -420,6 +480,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Azure.Storage.Blobs >= 12.8.0",
+      "Azure.Storage.Queues >= 12.6.1",
       "Newtonsoft.Json >= 13.0.1",
       "PlantCollection.Domain.Model >= 1.0.0"
     ]
@@ -472,6 +533,10 @@
           "Azure.Storage.Blobs": {
             "target": "Package",
             "version": "[12.8.0, )"
+          },
+          "Azure.Storage.Queues": {
+            "target": "Package",
+            "version": "[12.6.1, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",

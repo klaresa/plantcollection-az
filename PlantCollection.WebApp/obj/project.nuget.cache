@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qljwsd3RbJqiH5FMt7yOcAtxNs++zYcGayOQdkFL+dnXVhM3DbBIOaTxskR+FLSjVr3ehQgCHksIWlSI0a4O4A==",
+  "dgSpecHash": "qdQIKK+zmuzkrxVaJ7BPBHOQ7/lW0UwljDOwB2VFz3z05OQo1Wai7bn0y0SRtZRMwztM2mUYS2pyjdlTXKL4Ng==",
   "success": true,
   "projectFilePath": "D:\\Csharp\\PlantCollection\\PlantCollection.WebApp\\PlantCollection.WebApp.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,8 @@
     "C:\\Users\\klari\\.nuget\\packages\\azure.identity\\1.1.1\\azure.identity.1.1.1.nupkg.sha512",
     "C:\\Users\\klari\\.nuget\\packages\\azure.security.keyvault.secrets\\4.0.1\\azure.security.keyvault.secrets.4.0.1.nupkg.sha512",
     "C:\\Users\\klari\\.nuget\\packages\\azure.storage.blobs\\12.8.0\\azure.storage.blobs.12.8.0.nupkg.sha512",
-    "C:\\Users\\klari\\.nuget\\packages\\azure.storage.common\\12.7.0\\azure.storage.common.12.7.0.nupkg.sha512",
+    "C:\\Users\\klari\\.nuget\\packages\\azure.storage.common\\12.7.1\\azure.storage.common.12.7.1.nupkg.sha512",
+    "C:\\Users\\klari\\.nuget\\packages\\azure.storage.queues\\12.6.1\\azure.storage.queues.12.6.1.nupkg.sha512",
     "C:\\Users\\klari\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\klari\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\klari\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",
@@ -127,6 +128,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.linq.expressions\\4.3.0\\system.linq.expressions.4.3.0.nupkg.sha512",
     "C:\\Users\\klari\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\klari\\.nuget\\packages\\system.memory.data\\1.0.1\\system.memory.data.1.0.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.net.http\\4.3.0\\system.net.http.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.net.nameresolution\\4.3.0\\system.net.nameresolution.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.net.primitives\\4.3.0\\system.net.primitives.4.3.0.nupkg.sha512",

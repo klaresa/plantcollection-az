@@ -56,14 +56,14 @@ namespace PlantCollection.WebApp.Controllers
                 return NotFound();
             }
 
+            await _domainService.IncreaseView(id);
+            
             var plant = await _domainService.GetByIdAsync(id);
 
             if (plant == null)
             {
                 return NotFound();
             }
-
-            await _domainService.IncreaseView(id);
 
             return View(plant);
         }
