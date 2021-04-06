@@ -1,8 +1,0 @@
-D:\Csharp\PlantCollection\PlantCollection.Domain\bin\Release\netcoreapp3.1\PlantCollection.Domain.Model.deps.json
-D:\Csharp\PlantCollection\PlantCollection.Domain\bin\Release\netcoreapp3.1\PlantCollection.Domain.Model.dll
-D:\Csharp\PlantCollection\PlantCollection.Domain\bin\Release\netcoreapp3.1\PlantCollection.Domain.Model.pdb
-D:\Csharp\PlantCollection\PlantCollection.Domain\obj\Release\netcoreapp3.1\PlantCollection.Domain.Model.AssemblyInfoInputs.cache
-D:\Csharp\PlantCollection\PlantCollection.Domain\obj\Release\netcoreapp3.1\PlantCollection.Domain.Model.AssemblyInfo.cs
-D:\Csharp\PlantCollection\PlantCollection.Domain\obj\Release\netcoreapp3.1\PlantCollection.Domain.Model.csproj.CoreCompileInputs.cache
-D:\Csharp\PlantCollection\PlantCollection.Domain\obj\Release\netcoreapp3.1\PlantCollection.Domain.Model.dll
-D:\Csharp\PlantCollection\PlantCollection.Domain\obj\Release\netcoreapp3.1\PlantCollection.Domain.Model.pdb
